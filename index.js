@@ -23,8 +23,8 @@ process.stdin.on('data', function (data) {
             mmc2 = numeroUm;
         }
 
-        for (let i = 1; i <= mmc1; i++) {
-            for (let j = 1; j <= mmc2; j++) {
+        for (let i = 1; i <= mmc2; i++) {
+            for (let j = 1; j <= mmc1; j++) {
                 if (mmc1 * i == mmc2 * j) {
                     console.log('O MMC dos números solicitados é', mmc1 * i);
                     process.exit();
