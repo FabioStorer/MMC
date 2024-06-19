@@ -1,0 +1,1 @@
+console.log('Script que pede informação do usuário para calcular seu MMC.');
